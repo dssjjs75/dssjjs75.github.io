@@ -158,7 +158,7 @@ h3, .h3 {
 .sidebar-table {
   margin: 0px;
   padding: 0px;
-  width: 100%;
+  /*width: 100%;*/
 }
 
 .sidebar-table-left {
@@ -166,7 +166,7 @@ h3, .h3 {
 }
 
 .sidebar-table-right {
-  width: 100px;
+  width: 200px;
 }
 
 .sidebar-right {
@@ -267,4 +267,5 @@ h3, .h3 {
 .logo {
   display: block;
   margin: 0 auto;
+  max-width: 100%;
 }
