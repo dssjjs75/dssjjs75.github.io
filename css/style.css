@@ -112,10 +112,6 @@ h3, .h3 {
 }
 
 
-.blog-sidebar {
-  width: 100%
-}
-
 /*
  * Main column and sidebar layout
  */
@@ -125,7 +121,8 @@ h3, .h3 {
 }
 
 .col-sm-3 {
-  width: 30%;
+  /*width: 30%;*/
+  width: 400px;
 }
 
 .blog-main {
