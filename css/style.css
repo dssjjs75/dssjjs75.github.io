@@ -161,6 +161,10 @@ h3, .h3 {
   width: 100%;
 }
 
+.sidebar-table-left {
+  width: 64px;
+}
+
 .sidebar-right {
   padding: 0px;
   padding-left: 10px;
