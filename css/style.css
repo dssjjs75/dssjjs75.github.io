@@ -112,6 +112,10 @@ h3, .h3 {
 }
 
 
+.blog-sidebar {
+  width: 100%
+}
+
 /*
  * Main column and sidebar layout
  */
