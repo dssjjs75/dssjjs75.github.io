@@ -1,7 +1,9 @@
 function onresize()
 {
     if($(window).width() <= 1080) {
-        $(".col-sm-3").width($(window).width()*0.5); 
+        var w = $(window).width()*0.5;
+        $(".col-sm-3").width(w); 
+        $(".sidebar-table").width(w); 
     }
 }
 
