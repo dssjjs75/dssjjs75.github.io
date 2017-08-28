@@ -2,9 +2,9 @@ function onresize()
 {
     if($(window).width() <= 1080) {
         //change width of sidebar if columns stacked
-        //var w = 500;
+        var w = 200;
         $(".col-sm-3").width(w); 
-        //$(".sidebar-table").width(w); 
+        $(".sidebar-table").width(w); 
     }
 }
 
