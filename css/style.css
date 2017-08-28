@@ -121,8 +121,7 @@ h3, .h3 {
 }
 
 .col-sm-3 {
-  /*width: 30%;*/
-  width: 100%;
+  width: 30%;
 }
 
 .blog-main {
