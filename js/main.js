@@ -1,7 +1,7 @@
 function onresize()
 {
     if($(window).width() <= 1080) {
-        $(".col-sm-3").width($(window).width()); 
+        $(".col-sm-3").width($(window).width()*0.8); 
     }
 }
 
