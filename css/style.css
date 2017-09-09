@@ -198,6 +198,11 @@ h3, .h3 {
   vertical-align: baseline;
 }
 
+.sidebar-img {
+  max-width: 64px;
+  max-height: 64px;
+}
+
 /* Pagination */
 .pager {
   margin-bottom: 60px;
@@ -220,8 +225,9 @@ h3, .h3 {
 }
 
 .blog-post img {
-  width: 80%;
-
+  width: 100%;
+  padding-bottom: 20px;
+  
 }
 
 .blog-post-title {
@@ -247,6 +253,13 @@ h3, .h3 {
   font-size: 16px;
 }
 
+
+.question {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #111;
+}
 
 /*
  * Footer
